@@ -1,0 +1,27 @@
+.control-group {
+	BORDER-BOTTOM: #eee 1px solid; BACKGROUND-COLOR: #fbfbfb
+}
+.controls {
+	BORDER-LEFT: #eee 1px solid; BACKGROUND-COLOR: white
+}
+.form-horizontal .control-group {
+	BORDER-BOTTOM: #eee 1px solid; BACKGROUND-COLOR: #fbfbfb
+}
+.form-horizontal .controls {
+	BORDER-LEFT: #eee 1px solid; BACKGROUND-COLOR: white
+}
+.box {
+	BORDER-BOTTOM: #d6d6d6 1px solid; BORDER-LEFT: #d6d6d6 1px solid; BORDER-TOP: #d6d6d6 1px solid; BORDER-RIGHT: #d6d6d6 1px solid; box-shadow: 0 1px 3px rgba(100, 100, 100, 0.1); border-radius: 0px
+}
+.box .box-title {
+	BORDER-BOTTOM: #d6d6d6 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #f8f8f8; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; COLOR: #555; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 10px; text-shadow: 0 1px 0 white
+}
+.box .box-content {
+	BACKGROUND-COLOR: white
+}
+.fieldset.box .box-content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.table TH {
+	FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0); BACKGROUND-COLOR: #fafafa; BACKGROUND-REPEAT: repeat-x; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065); -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065); -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065)
+}

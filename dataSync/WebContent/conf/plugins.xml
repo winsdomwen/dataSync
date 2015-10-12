@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+	<plugin>
+		<version>1</version>
+		<name>mysqlreader</name>
+		<!-- reader | writer | spliter -->
+		<type>reader</type>
+		<!-- mysql | oracle | hdfs | feitian -->
+		<target>mysql</target>
+		<!-- the jar's filename -->
+		<jar>mysqlreader-1.0.0.jar</jar>
+		<!-- pulgin's class name, must include package path -->
+		<class>com.gci.datax.plugins.reader.mysqlreader.MysqlReader</class>
+		<!-- max concurrency the plugin can support -->
+		<maxthreadnum>10</maxthreadnum>
+	</plugin>
+	
+	<plugin>
+		<version>1</version>
+		<name>oraclereader</name>
+		<type>reader</type>
+		<target>oracle</target>
+		<jar>oraclereader-1.0.0.jar</jar>
+		<class>com.gci.datax.plugins.reader.oraclereader.OracleReader</class>
+		<maxthreadnum>40</maxthreadnum>
+	</plugin>
+
+	<plugin>
+		<version>1</version>
+		<name>sqlserverreader</name>
+		<type>reader</type>
+		<target>sqlserver</target>
+		<jar>sqlserverreader-1.0.0.jar</jar>
+		<class>com.gci.datax.plugins.reader.sqlserverreader.SqlServerReader</class>
+		<maxthreadnum>10</maxthreadnum>
+	</plugin>
+	<plugin>
+      <version>1</version>
+      <name>oraclejdbcwriter</name>
+      <type>writer</type>
+      <target>oracle</target>
+      <jar>oraclejdbcwriter-1.0.0.jar</jar>
+      <class>com.gci.datax.plugins.writer.oraclejdbcwriter.OracleJdbcWriter</class>
+      <maxthreadnum>40</maxthreadnum>
+   </plugin>
+	<plugin>
+		<version>1</version>
+		<name>oraclewriter</name>
+		<type>writer</type>
+		<target>oracle</target>
+		<jar>oraclewriter-1.0.0.jar</jar>
+		<class>com.gci.datax.plugins.writer.oraclewriter.OracleWriter</class>
+		<maxthreadnum>40</maxthreadnum>
+	</plugin>
+	<plugin>
+		<version>1</version>
+		<name>mysqlwriter</name>
+		<type>writer</type>
+		<target>mysql</target>
+		<jar>mysqlwriter-1.0.0.jar</jar>
+		<class>com.gci.datax.plugins.writer.mysqlwriter.MysqlWriter</class>
+		<maxthreadnum>10</maxthreadnum>
+	</plugin>
+	
+	<plugin>
+		<version>1</version>
+		<name>rediswriter</name>
+		<type>writer</type>
+		<target>redis</target>
+		<jar>rediswriter-1.0.0.jar</jar>
+		<class>com.gci.datax.plugins.writer.rediswriter.RedisWriter</class>
+		<maxthreadnum>10</maxthreadnum>
+	</plugin>	
+	
+	<plugin>
+		<version>1</version>
+		<name>sqlserverwriter</name>
+		<type>writer</type>
+		<target>sqlserver</target>
+		<jar>sqlserverwriter-1.0.0.jar</jar>
+		<class>com.gci.datax.plugins.writer.sqlserverwriter.SqlServerWriter</class>
+		<maxthreadnum>10</maxthreadnum>
+	</plugin>
+</plugins>

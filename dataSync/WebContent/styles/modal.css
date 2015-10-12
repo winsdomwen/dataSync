@@ -1,0 +1,69 @@
+.modal-open {
+	POSITION: relative; OVERFLOW: hidden
+}
+.page-overflow.modal-open .page-container {
+	OVERFLOW-Y: scroll
+}
+.page-overflow.modal-open .page-container .navbar-fixed-top {
+	OVERFLOW-Y: scroll
+}
+.page-overflow.modal-open .page-container .navbar-fixed-bottom {
+	OVERFLOW-Y: scroll
+}
+.page-overflow.modal-open .modal-scrollable {
+	OVERFLOW-Y: scroll
+}
+.modal-scrollable {
+	POSITION: fixed; BOTTOM: 0px; OVERFLOW: auto; TOP: 0px; RIGHT: 0px; LEFT: 0px
+}
+.modal {
+	POSITION: absolute; MARGIN-TOP: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; OVERFLOW: visible; TOP: 50%
+}
+.fade.modal {
+	TOP: -100%; -webkit-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out; -moz-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out; -o-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out; transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out
+}
+.in.fade.modal {
+	
+}
+.modal-body {
+	MAX-HEIGHT: none; OVERFLOW: visible
+}
+.modal-absolute.modal {
+	Z-INDEX: 950; POSITION: absolute
+}
+.modal .loading-mask {
+	POSITION: absolute; BOTTOM: 0px; BACKGROUND: #fff; TOP: 0px; RIGHT: 0px; LEFT: 0px; border-radius: 6px
+}
+.modal-absolute.modal-backdrop {
+	Z-INDEX: 940; POSITION: absolute
+}
+.modal-backdrop {
+	FILTER: alpha(opacity=70); BACKGROUND: #fff; opacity: 0.7
+}
+.in.fade.modal-backdrop {
+	FILTER: alpha(opacity=70); BACKGROUND: #fff; opacity: 0.7
+}
+.container.modal {
+	WIDTH: 940px; MARGIN-LEFT: -570px
+}
+.modal.modal-overflow {
+	TOP: 1%
+}
+.fade.modal.modal-overflow {
+	TOP: -100%
+}
+.in.fade.modal.modal-overflow {
+	TOP: 1%
+}
+.modal-overflow .modal-body {
+	OVERFLOW: auto; -webkit-overflow-scrolling: touch
+}
+.loading-spinner {
+	POSITION: absolute; MARGIN: -12px 0px 0px -12px; TOP: 50%; LEFT: 50%
+}
+.animated {
+	-webkit-animation-duration: 1s; -moz-animation-duration: 1s; -o-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; -moz-animation-fill-mode: both; -o-animation-fill-mode: both; animation-fill-mode: both
+}
+.shake {
+	-webkit-animation-name: shake; -moz-animation-name: shake; -o-animation-name: shake; animation-name: shake
+}

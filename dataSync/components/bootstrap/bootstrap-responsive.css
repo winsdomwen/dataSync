@@ -1,0 +1,47 @@
+.clearfix {
+	
+}
+.clearfix:before {
+	LINE-HEIGHT: 0; DISPLAY: table; CONTENT: ""
+}
+.clearfix:after {
+	LINE-HEIGHT: 0; DISPLAY: table; CONTENT: ""
+}
+.clearfix:after {
+	CLEAR: both
+}
+.hide-text {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: transparent; FONT: 0px/0 a; COLOR: transparent; BORDER-TOP: 0px; BORDER-RIGHT: 0px; text-shadow: none
+}
+.input-block-level {
+	BOX-SIZING: border-box; MIN-HEIGHT: 30px; WIDTH: 100%; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.hidden {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.visible-phone {
+	DISPLAY: none !important
+}
+.visible-tablet {
+	DISPLAY: none !important
+}
+.hidden-desktop {
+	DISPLAY: none !important
+}
+.visible-desktop {
+	DISPLAY: inherit !important
+}
+.visible-print {
+	DISPLAY: none !important
+}
+
+@media Print    
+{
+.visible-print {
+	DISPLAY: inherit !important
+}
+.hidden-print {
+	DISPLAY: none !important
+}
+
+}

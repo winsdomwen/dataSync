@@ -1,0 +1,192 @@
+BODY {
+	PADDING-BOTTOM: 40px
+}
+#top-nav {
+	POSITION: relative; MARGIN-BOTTOM: 18px
+}
+.sidebar-nav {
+	PADDING-BOTTOM: 9px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 9px
+}
+A {
+	CURSOR: pointer
+}
+.popover {
+	WIDTH: auto
+}
+.dropdown-menu.popover {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.dropdown-menu.right.popover {
+	MARGIN-TOP: -35px; MARGIN-LEFT: -10px
+}
+.dropdown-menu.left.popover {
+	MARGIN-TOP: -35px
+}
+.dropdown-menu.right.popover .arrow {
+	TOP: 47px
+}
+.dropdown-menu.left.popover .arrow {
+	TOP: 47px
+}
+.dropdown-menu.popover FORM {
+	MARGIN: 6px 0px
+}
+#filter-menu .filter-date .menu-choice-date .popover {
+	WIDTH: 260px
+}
+.filter-date .menu-choice-date .choice-year {
+	WIDTH: 38px
+}
+.filter-date .menu-choice-date .choice-month {
+	WIDTH: 22px
+}
+.filter-date .menu-choice-date .choice-day {
+	WIDTH: 22px
+}
+.filter-date .menu-choice-date BUTTON {
+	MARGIN-TOP: 0px
+}
+.filter-date .menu-date-range .dropdown-menu {
+	WIDTH: 605px; TOP: 30px; LEFT: 10px
+}
+.filter-date .menu-date-range .ranges {
+	MARGIN: 10px; WIDTH: 115px; FLOAT: left
+}
+.filter-date .menu-date-range .daterangepicker {
+	FLOAT: right
+}
+.filter-date .menu-date-range .dropdown-menu:before {
+	BORDER-BOTTOM: #ccc 7px solid; POSITION: absolute; BORDER-LEFT: transparent 7px solid; DISPLAY: inline-block; CONTENT: ''; TOP: -7px; BORDER-RIGHT: transparent 7px solid; LEFT: 9px
+}
+.filter-date .menu-date-range .dropdown-menu:after {
+	BORDER-BOTTOM: #fff 6px solid; POSITION: absolute; BORDER-LEFT: transparent 6px solid; DISPLAY: inline-block; CONTENT: ''; TOP: -6px; BORDER-RIGHT: transparent 6px solid; LEFT: 10px
+}
+.filter-fk-search .select-search {
+	MIN-WIDTH: 160px
+}
+.filters .dropdown-submenu:hover > .dropdown-menu {
+	DISPLAY: none
+}
+.filters .open.dropdown-submenu > .dropdown-menu {
+	DISPLAY: block
+}
+.box {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 15px; OVERFLOW: visible; PADDING-TOP: 0px
+}
+.box .box-title {
+	PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 10px
+}
+.box .box-title .icon {
+	WIDTH: 20px; FLOAT: right; HEIGHT: 20px; FONT-SIZE: 14px; TOP: 50%; CURSOR: pointer; MARGIN-RIGHT: 5px
+}
+.box .box-title .badge {
+	FLOAT: right; MARGIN-LEFT: 10px; TOP: 50%
+}
+.no_title.box .box-title {
+	DISPLAY: none
+}
+.box .box-content {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 10px
+}
+.box .nopadding.box-content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.ui-sortable-placeholder {
+	BORDER-BOTTOM: #ccc 1px dotted; BORDER-LEFT: #ccc 1px dotted; VISIBILITY: visible !important; BORDER-TOP: #ccc 1px dotted; BORDER-RIGHT: #ccc 1px dotted
+}
+.ui-sortable-placeholder * {
+	VISIBILITY: hidden
+}
+.dropdown-menu LI.with_menu_btn > A:first-child {
+	PADDING-RIGHT: 35px
+}
+.dropdown-menu .dropdown-menu-btn {
+	PADDING-BOTTOM: 3px; MARGIN-TOP: -26px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FLOAT: right; HEIGHT: 20px; MARGIN-RIGHT: 7px; PADDING-TOP: 3px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.dropdown-menu .dropdown-menu-btn:hover {
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065); -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065); -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065)
+}
+.mask {
+	Z-INDEX: 9999; POSITION: absolute; MARGIN-TOP: -8px; WIDTH: 100%; DISPLAY: none; HEIGHT: 100%; TOP: 8px; LEFT: 0px
+}
+.mask .progress {
+	POSITION: absolute; MARGIN-TOP: -8px; WIDTH: 80%; TOP: 50%; LEFT: 10%
+}
+.mask .progress .bar {
+	WIDTH: 100%
+}
+.export .dropdown-submenu .popover {
+	WIDTH: 240px; MARGIN-LEFT: -80px
+}
+.table TH {
+	TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap
+}
+.table TD .btn-group {
+	FONT-SIZE: 13px
+}
+.data-details DL.dl-horizontal DT {
+	WIDTH: 80px
+}
+.data-details DL.dl-horizontal DD {
+	MARGIN-LEFT: 90px
+}
+.data-details .btn {
+	MARGIN-BOTTOM: 10px; FLOAT: right
+}
+.related_menu.dropdown .dropdown-menu {
+	WIDTH: 200px; LEFT: -180px
+}
+.related_menu.dropdown .dropdown-menu > LI > A {
+	TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap; OVERFLOW: hidden
+}
+.rel-brand {
+	COLOR: #a10000; FONT-SIZE: 0.8em
+}
+UL.model_ul {
+	MARGIN-BOTTOM: 20px
+}
+UL.model_ul {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+UL.model_ul UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+UL.model_ul LI {
+	LINE-HEIGHT: 20px; MARGIN: 8px 0px
+}
+UL.model_ul LI SPAN {
+	MIN-WIDTH: auto; PADDING-BOTTOM: 3px; MIN-HEIGHT: auto; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 3px
+}
+*[class^='icon-'] SUB {
+	MARGIN-LEFT: -6px; FONT-SIZE: 0.5em
+}
+*[class^='icon-'] SUP {
+	MARGIN-LEFT: -6px; FONT-SIZE: 0.5em
+}
+.btn-ajax {
+	MARGIN-LEFT: 10px
+}
+#g-search .btn-group {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+A[class^='icon-']:before {
+	MARGIN-RIGHT: 0.3em
+}
+A[class*=' icon-']:before {
+	MARGIN-RIGHT: 0.3em
+}
+[class^='icon-'].btn:before {
+	MARGIN-RIGHT: 0.3em
+}
+[class*=' icon-'].btn:before {
+	MARGIN-RIGHT: 0.3em
+}
+.navbar .input-append {
+	MARGIN-BOTTOM: 5px
+}
+.navbar .input-prepend {
+	MARGIN-BOTTOM: 5px
+}
+.action-checkbox-column {
+	WIDTH: 14px
+}

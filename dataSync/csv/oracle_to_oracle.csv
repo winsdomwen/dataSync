@@ -1,0 +1,24 @@
+job_name,oracle 同步到 oracle11,,,,,,,任务名称
+job_executetime,16:01:00,,,,,,,"执行时间,格式：hh:mm:ss"
+field,sourcedb,targetdb
+db_type,oracle,oracle,,,,,,数据库类型
+ip,192.168.222.53,10.88.40.131,,,,,,IP地址
+port,1521,1521,,,,,,端口
+dbname,NBUSDB,WATERDB,,,,,,数据库名
+username,apts,apts,,,,,,用户名
+password,apts,apts,,,,,,密码
+sourcedb_select_sql,"select a.user_id user_id,b.account_name user_name,d.role_name role_name,a.date_created login_time from log_login a
+left join pri_user b on a.user_id=b.id
+left join pri_role_users c on c.user_id=b.id
+left join pri_role d on d.id=c.role_id",,,,,,,从源数据库取得数据的sql语句，如果需要使用嵌套、关联查询，需在这配置完整sql，优先使用该配置项;未配置即会由列属性拼接
+targetdb_insert_sql,"insert into test_view (userid,username,rolename,logintime) values (?,?,?,to_date(?,'yyyy-mm-dd hh24:mi:ss'))",,,,,,,插入数据时优先使用insert配置，未配置insert时，程序根据列属性拼接insert
+targetdb_before_sql,,,,,,,,插入数据前先执行的sql语句
+targetdb_after_sql,,,,,,,,插入数据后再执行的sql语句
+table,,,,,,,,目标库表名
+concurrency,,,,,,,,线程数（可选，默认10个）
+column,userid,userid,,,,,,列名
+column,username,username
+column
+column
+column
+column

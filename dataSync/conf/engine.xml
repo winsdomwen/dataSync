@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<engine>
+	<pluginrootpath>/WEB-INF/classes/com/gci/datax/plugins/</pluginrootpath>
+	<version>1</version>
+	<storage>
+		<class>com.gci.datax.engine.storage.RAMStorage</class>
+		<!-- 缓冲区的交换数据数组长度 -->
+		<linelimit>3000</linelimit>
+		<bytelimit>1000000</bytelimit>
+		<buffersize>50</buffersize>
+	</storage>
+	<schedule>
+		<url>
+			http://127.0.0.1:8080/dataSync/JobProcessServlet?action=stat
+		</url>
+	</schedule>
+</engine>

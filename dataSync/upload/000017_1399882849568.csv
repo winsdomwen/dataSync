@@ -1,0 +1,38 @@
+job_name,gz_SERVICES_MASTER,,,,,,,任务名称
+job_executetime,16:36:00,,,,,,,"执行时间,格式：hh:mm:ss"
+field,sourcedb,targetdb,,,,,,
+db_type,oracle,oracle,,,,,,数据库类型
+ip,192.168.223.46,192.168.222.53,,,,,,IP地址
+port,1521,1521,,,,,,端口
+dbname,busdb,nbusdb,,,,,,数据库名
+username,apts,apts,,,,,,用户名
+password,sqlbasic,apts,,,,,,密码
+sourcedb_select_sql,"select services_master_id,
+       routecode,
+       servicename,
+       servicetype,
+       servicedescription,
+       starttripnumber,
+       busstopcode_from,
+       busstopname_from,
+       busstopcode_to,
+       busstopname_to,
+       tripnumber,
+       servicetypenumber
+  from services_master",,,,,,,从源数据库取得数据的sql语句，如果需要使用嵌套、关联查询，需在这配置完整sql，优先使用该配置项;未配置即会由列属性拼接
+targetdb_insert_sql,,,,,,,,插入数据时优先使用insert配置，未配置insert时，程序根据列属性拼接insert
+targetdb_before_sql,,,,,,,,插入数据前先执行的sql语句
+targetdb_after_sql,,,,,,,,插入数据后再执行的sql语句
+table,a_SERVICES_MASTER,,,,,,,
+column,services_master_id ,services_master_id ,,,,,,列名
+column,routecode ,routecode ,,,,,,
+column,servicename ,servicename ,,,,,,
+column,servicetype ,servicetype ,,,,,,
+column,servicedescription ,servicedescription ,,,,,,
+column,starttripnumber ,starttripnumber ,,,,,,
+column,busstopcode_from ,busstopcode_from ,,,,,,
+column,busstopname_from ,busstopname_from ,,,,,,
+column,busstopcode_to ,busstopcode_to ,,,,,,
+column,busstopname_to ,busstopname_to ,,,,,,
+column,tripnumber ,tripnumber ,,,,,,
+column,servicetypenumber,servicetypenumber,,,,,,

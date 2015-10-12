@@ -1,0 +1,28 @@
+#jdbc.driverClassName=com.mysql.jdbc.Driver
+#jdbc.url=jdbc:mysql://127.0.0.1:3306/quartz?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+#jdbc.username=root
+#jdbc.password=root
+
+jdbc.driverClassName=org.h2.Driver
+jdbc.url=jdbc:h2:E:open/test/dataSync/WebContent/db/quartz
+jdbc.username=sa
+jdbc.password=sa
+
+# Time to wait for an open connection before timing out
+# (in milliseconds)
+cpool.checkoutTimeout=5000
+
+# Connection pool size
+cpool.minPoolSize=10
+cpool.maxPoolSize=25
+
+# How long to keep unused connections around(in seconds)
+# Note: MySQL times out idle connections after 8 hours(28,800 seconds)
+# so ensure this value is below MySQL idle timeout
+cpool.maxIdleTime=7200
+
+# Acquiring new connections is slow, so eagerly retrieve extra connections
+# when current pool size is reached
+cpool.acquireIncrement=5
+
+cpool.autoCommitOnClose=true

@@ -1,0 +1,111 @@
+.date-field {
+	MAX-WIDTH: 110px
+}
+.time-field {
+	MAX-WIDTH: 60px
+}
+SELECT.selectmultiple {
+	WIDTH: 70%; MAX-WIDTH: 350px; HEIGHT: 120px
+}
+.url-field {
+	WIDTH: 30em
+}
+.textarea-field {
+	WIDTH: 94%
+}
+.flatpages-flatpage #id_content {
+	HEIGHT: 40.2em
+}
+.text-field {
+	WIDTH: 60%; MAX-WIDTH: 300px
+}
+.textinput {
+	WIDTH: 60%; MAX-WIDTH: 300px
+}
+.int-field {
+	WIDTH: 30%; MAX-WIDTH: 100px
+}
+.fixed.form-actions {
+	Z-INDEX: 295; POSITION: fixed; BOTTOM: 0px; MARGIN-LEFT: -10px; RIGHT: 10px; box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5); _position: absolute
+}
+.fixed.form-actions .pull-right {
+	FLOAT: none; MARGIN-LEFT: 20px
+}
+SELECT {
+	WIDTH: 60%; MAX-WIDTH: 200px; MARGIN-BOTTOM: 10px
+}
+.select2-container {
+	WIDTH: 60%; MAX-WIDTH: 200px; MARGIN-BOTTOM: 10px
+}
+.form-horizontal .select2-container {
+	MARGIN-BOTTOM: 0px
+}
+.control-group {
+	MARGIN-BOTTOM: 0px
+}
+.control-label {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 0px; FONT-WEIGHT: bold; PADDING-TOP: 6px
+}
+.controls {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.value .controls {
+	PADDING-BOTTOM: 10px
+}
+.form-horizontal .control-group {
+	MARGIN-BOTTOM: 0px
+}
+.form-horizontal .control-label {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 0px; FONT-WEIGHT: bold; PADDING-TOP: 19px
+}
+.form-horizontal .controls {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; PADDING-TOP: 15px
+}
+.form-horizontal .value .control-label {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 12px
+}
+.form-horizontal .value .controls {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; PADDING-TOP: 12px
+}
+.form-horizontal .form-row .value .controls {
+	HEIGHT: 20px
+}
+.short_label.form-horizontal .control-label {
+	WIDTH: 90px
+}
+.form-horizontal .short_label .control-label {
+	WIDTH: 90px
+}
+.short_label.form-horizontal .controls {
+	MARGIN-LEFT: 100px
+}
+.form-horizontal .short_label .controls {
+	MARGIN-LEFT: 100px
+}
+.asteriskField {
+	COLOR: red
+}
+.form-horizontal .form-row {
+	MARGIN: 0px
+}
+.form-horizontal .form-row .controls {
+	HEIGHT: 30px
+}
+.form-horizontal .form-row .control-group {
+	WIDTH: 50%; DISPLAY: inline-block; FLOAT: left
+}
+.form-horizontal.main .control-label {
+	WIDTH: 140px
+}
+.form-horizontal.main .controls {
+	MARGIN-LEFT: 160px
+}
+IMG.field_img {
+	MAX-HEIGHT: 100px
+}
+.diff_field .control-label {
+	COLOR: #ff8040
+}
+.diff_field .controls {
+	BACKGROUND-COLOR: #fcf8e3
+}
